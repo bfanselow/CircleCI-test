@@ -1,6 +1,6 @@
 # CircleCI test
 
-## A Continous-Integration demonstration using CircleCI
+## A Continous-Integration demonstration using CircleCI to execute Flake8 and pytest 
 
 ## Resource:
   * CircleCI: https://circleci.com/   
@@ -41,4 +41,10 @@ omit = venv/*
 ```
 
 ## CircleCI
-We instruct CircleCI on how to run your build using a YAML config file inside a **.circleci** dir in your repo base.  CircleCI expects this file to be called **config.yml.**
+ 1) Create a **.circleci** dir in your repo base, and a YAML config file (**config.yml**) under this new dir. This instructs CircleCI on how to run your build (CircleCI expects this file to be called **config.yml.**)
+ 2) Add the build instructions in **config.yml** to include the **flake8** and **pytest** operations above.
+ 3) Now (git) add, commit and push changes (i.e. the **.circleci** directory). 
+ 4) Login to *circleci.com* (using GitHub) credentials. Find this project and select **"Set Up Project"** and follow instructions.
+ 5) All subsequent *push* requests for this project will automatically include the CI build steps. 
+  
+
