@@ -1,7 +1,10 @@
 # CircleCI test
 
-## A Continous-Integration demonstration using CircleCI:  https://circleci.com/   
-## Follows tutorial from https://realpython.com/python-continuous-integration/
+## A Continous-Integration demonstration using CircleCI
+
+## Resource:
+  * CircleCI: https://circleci.com/   
+  * Follows tutorial from https://realpython.com/python-continuous-integration/
 
 ## Goals:
   * Learn how to integrate GitHub project with CircleCI
