@@ -1,6 +1,6 @@
 # CircleCI test
 
-A Continous-Integration demonstration using CircleCI:  https://circleci.com/
+A Continous-Integration demonstration using CircleCI:  https://circleci.com/   
 Follows tutorial from https://realpython.com/python-continuous-integration/
 
 ## Goals:
