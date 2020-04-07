@@ -40,3 +40,5 @@ $ cat .coveragerc
 omit = venv/*
 ```
 
+## CircleCI
+We instruct CircleCI on how to run your build using a YAML config file inside a **.circleci** dir in your repo base.  CircleCI expects this file to be called **config.yml.**
