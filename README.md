@@ -1,11 +1,16 @@
 # CircleCI test
 
-A Continous-Integration demonstration using CircleCI:  https://circleci.com/   
-Follows tutorial from https://realpython.com/python-continuous-integration/
+## A Continous-Integration demonstration using CircleCI:  https://circleci.com/   
+## Follows tutorial from https://realpython.com/python-continuous-integration/
 
 ## Goals:
   * Learn how to integrate GitHub project with CircleCI
   * Learn how to use **flake8** linter and **pytest-cov** for testing code "coverage". 
+
+## Requires (pip install):
+ * flake8 
+ * pytest 
+ * pytest-cov
 
 ### Flake8
 Make sure to exclude **venv**, else flake8 will dump a bunch of warnings from the venv files.
@@ -16,10 +21,10 @@ Make sure to exclude **venv**, else flake8 will dump a bunch of warnings from th
 ### pytest
 
 **Basic testing**  
-Run pytest with instead of *python -m pytest [...]* instaed of just *pytest*  This yields nearly equivalent behaviour but will add the current directory to sys.path, which is helpfull.   This allows us to simply do **import calculator** in the *tests/test_calculator* and pytest will successfully execute.
 ```
  python -m pytest -v
 ```
+Notice we run pytest with instead of *python -m pytest [...]* instead of just *pytest*  This yields nearly equivalent behaviour but will add the current directory to sys.path, which is helpfull.   This allows us to simply write **import calculator** in the *tests/test_calculator* and pytest will successfully execute.
 
 **Check coverage**
 ```
